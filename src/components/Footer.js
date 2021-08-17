@@ -12,7 +12,14 @@ export default function Footer() {
       >
         Open-source code
       </a>{" "}
-      by Marina Momčilov
+      by{" "}
+      <a
+        href="https://amazing-minsky-57ce6d.netlify.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Marina Momčilov
+      </a>
     </footer>
   );
 }
