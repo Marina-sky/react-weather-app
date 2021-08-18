@@ -5,6 +5,7 @@ import SearchEngine from "./components/SearchEngine";
 import Temperature from "./components/Temperature";
 import Footer from "./components/Footer";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/Weather.css";
 
 export default function Weather() {
