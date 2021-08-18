@@ -8,7 +8,7 @@ export default function SearchEngine() {
       <div className="row">
         <div className="col-8">
           <input
-            type="text"
+            type="search"
             className="form-control"
             placeholder="Enter a city"
             aria-label="Enter a city"
