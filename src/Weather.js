@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import SearchEngine from "./components/SearchEngine";
+import DayAndTime from "./components/DayAndTime";
 import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,11 +11,10 @@ import "./styles/Weather.css";
 export default function Weather() {
   const [weatherData, setweatherData] = useState({ ready: false });
   function showData(response) {
-    console.log(response.data);
     setweatherData({
       ready: true,
       city: response.data.name,
-      date: "Saturday, 17:00",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
@@ -43,8 +43,8 @@ export default function Weather() {
               </div>
               <div className="row">
                 <div className="col">
-                  <p className="today">
-                    {weatherData.date} <br />
+                  <div className="today">
+                    <DayAndTime date={weatherData.date} />
                     <span className="current-weather">
                       {weatherData.description}
                     </span>
@@ -63,7 +63,7 @@ export default function Weather() {
                       </a>{" "}
                       |<a href="/">°F</a>
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
                   <p className="quote">
