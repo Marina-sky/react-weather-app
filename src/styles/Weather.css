@@ -35,3 +35,58 @@ a:hover {
   margin-top: 0 auto;
   padding: 60px 20px;
 }
+
+.city {
+  font-family: "Quicksand", sans-serif;
+  margin-left: 25px;
+  margin-top: 50px;
+  color: #1f4068;
+}
+
+.current-icon {
+  width: 60px;
+  position: relative;
+  bottom: 15px;
+}
+
+.current-temperature {
+  font-size: 60px;
+  color: #1f4068;
+}
+
+.current-weather {
+  font-size: 18px;
+  display: block;
+}
+
+.current-weather::first-letter {
+  text-transform: uppercase;
+}
+
+.humidity-wind {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+.quote {
+  font-family: "Quicksand", sans-serif;
+  margin: 20px 20px 0 0;
+  padding: 30px 10px;
+  color: #d8345f;
+}
+
+.today {
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+
+.units {
+  position: relative;
+  bottom: 30px;
+}
+
+.units .active {
+  color: #0779e4;
+  cursor: default;
+}
