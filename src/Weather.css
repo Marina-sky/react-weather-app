@@ -63,6 +63,20 @@ a:hover {
   text-transform: uppercase;
 }
 
+.fas {
+  font-size: 40px;
+  color: #222831;
+}
+
+.fa-map-pin {
+  font-size: 25px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .humidity-wind {
   margin-left: 60px;
   margin-top: 80px;

@@ -5,6 +5,6 @@ import Weather from "./Weather";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-    <Weather />,
+    <Weather defaultCity="Berlin" />,
   rootElement
 );
