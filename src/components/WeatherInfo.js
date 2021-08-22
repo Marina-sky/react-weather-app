@@ -1,6 +1,7 @@
 import React from "react";
 
 import DayAndTime from "./DayAndTime";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
     return (
@@ -22,9 +23,8 @@ export default function WeatherInfo(props) {
               <DayAndTime date={props.data.date} />
               <span className="current-weather">{props.data.description}</span>
               <br />
-              <img
-                src={props.data.iconUrl}
-                alt={props.data.description}
+              <WeatherIcon
+                code={props.data.icon}
                 className="current-icon"
               />
               <span className="current-temperature">

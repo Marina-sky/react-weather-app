@@ -16,6 +16,17 @@ a:hover {
   color: rgb(163, 57, 57);
 }
 
+canvas {
+  width: 60px;
+  position: relative;
+  bottom: 15px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .card {
   background-image: linear-gradient(
     to top,
@@ -43,15 +54,12 @@ a:hover {
   color: #1f4068;
 }
 
-.current-icon {
-  width: 60px;
-  position: relative;
-  bottom: 15px;
-}
-
 .current-temperature {
   font-size: 60px;
   color: #1f4068;
+  position: relative;
+  bottom: 15px;
+  left: 5px;
 }
 
 .current-weather {
@@ -70,11 +78,6 @@ a:hover {
 
 .fa-map-pin {
   font-size: 25px;
-}
-
-footer {
-  font-size: 14px;
-  margin-top: 10px;
 }
 
 .humidity-wind {
@@ -99,7 +102,8 @@ footer {
 
 .units {
   position: relative;
-  bottom: 30px;
+  bottom: 45px;
+  left: 5px;
 }
 
 .units .active {
