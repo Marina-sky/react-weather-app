@@ -1,10 +1,11 @@
 p {
   margin: 10px;
-  color: #0779e4;
 }
 
 body {
   background-color: #f7f7f7;
+  font-family: "Quicksand", sans-serif;
+  color: #484f4f;
 }
 
 a {
@@ -42,15 +43,12 @@ footer {
 }
 
 .city {
-  font-family: "Quicksand", sans-serif;
   margin-left: 48px;
   margin-top: 50px;
-  color: #1f4068;
 }
 
 .current-temperature {
   font-size: 60px;
-  color: #1f4068;
   position: relative;
   bottom: 15px;
   left: 5px;
@@ -85,19 +83,11 @@ footer {
   left: 45%;
 }
 
-.quote {
-  font-family: "Quicksand", sans-serif;
-  margin: 20px 20px 0 0;
-  padding: 30px 10px;
-  color: #d8345f;
-}
-
 .today {
   position: relative;
   top: -30px;
   left: 40px;
   margin: 10px;
-  color: #0779e4;
 }
 
 .units {
@@ -107,6 +97,5 @@ footer {
 }
 
 .units .active {
-  color: #0779e4;
   cursor: default;
 }

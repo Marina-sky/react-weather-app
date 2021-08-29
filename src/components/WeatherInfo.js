@@ -10,8 +10,10 @@ export default function WeatherInfo(props) {
         <div className="row">
           <div className="col">
             <h1 className="city">{props.data.city}</h1>
+            
           </div>
           <div className="col">
+            
             <p className="humidity-wind">
               Humidity: {props.data.humidity}% <br />
               Wind: {Math.round(props.data.wind)} km/h
@@ -31,11 +33,6 @@ export default function WeatherInfo(props) {
               />
               <Temperature celsius={props.data.temperature} />
             </div>
-          </div>
-          <div className="col">
-            <p className="quote">
-              It is a great day for naps. Followed by naps.
-            </p>
           </div>
         </div>
       </div>
