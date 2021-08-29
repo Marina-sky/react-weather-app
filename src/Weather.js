@@ -6,7 +6,7 @@ import Forecast from "./components/Forecast"
 import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Weather.css";
+import "./layouts/Weather.css";
 
 export default function Weather(props) {
   const [weatherData, setweatherData] = useState({ ready: false });

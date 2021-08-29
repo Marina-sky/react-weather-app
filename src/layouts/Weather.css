@@ -27,28 +27,23 @@ footer {
 }
 
 .card {
-  background-image: linear-gradient(
-    to top,
-    lightgrey 0%,
-    lightgrey 1%,
-    #e0e0e0 26%,
-    #efefef 48%,
-    #d9d9d9 75%,
-    #bcbcbc 100%
-  );
+  background-image: url("cityscape.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   box-shadow: 0 2px 2px 0 rgba(26, 26, 26, 0.16),
     0 0 0 1px rgba(31, 31, 31, 0.08);
 }
 
 .container {
-  max-width: 700px;
+  max-width: 800px;
   margin-top: 0 auto;
   padding: 60px 20px;
 }
 
 .city {
   font-family: "Quicksand", sans-serif;
-  margin-left: 25px;
+  margin-left: 48px;
   margin-top: 50px;
   color: #1f4068;
 }
@@ -93,8 +88,8 @@ footer {
 
 .today {
   position: relative;
-  top: -50px;
-  left: 20px;
+  top: -30px;
+  left: 40px;
   margin: 10px;
   color: #0779e4;
 }
