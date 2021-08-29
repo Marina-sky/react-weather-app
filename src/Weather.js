@@ -68,11 +68,6 @@ export default function Weather(props) {
                       className="form-control btn btn-secondary"
                     />
                   </div>
-                  <div className="col-2">
-                    <button type="button" className="btn btn-danger">
-                      <i className="fas fa-map-pin"></i>
-                    </button>
-                  </div>
                 </div>
               </form>
               <WeatherInfo data={weatherData} />
